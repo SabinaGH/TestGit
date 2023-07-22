@@ -20,7 +20,6 @@ public class CofeeShopOrderUsingSwitch {
 
         int totalPrice = 0;
 
-
         switch(coffeeNumber)
         {
             case 1:
@@ -39,6 +38,7 @@ public class CofeeShopOrderUsingSwitch {
                 System.out.println("Please select valid coffee number");
 
         }
+
         // output as total price you have to pay to shopkeeper
         System.out.println("Total price is = "+totalPrice);
 

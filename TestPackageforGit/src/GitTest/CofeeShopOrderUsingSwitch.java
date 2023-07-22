@@ -17,30 +17,28 @@ public class CofeeShopOrderUsingSwitch {
         System.out.print("Enter the number of your desired coffee: ");
 
         int coffeeNumber = scanner.nextInt();
-
-        int totalPrice = 0;
+        int totalPriceOfCoffee = 0;
 
         switch(coffeeNumber)
         {
             case 1:
-                totalPrice = totalPrice+10;
+                totalPriceOfCoffee = totalPriceOfCoffee+10;
                 break;
             case 2:
-                totalPrice = totalPrice+15;
+                totalPriceOfCoffee = totalPriceOfCoffee+15;
                 break;
             case 3:
-                totalPrice = totalPrice+5;
+                totalPriceOfCoffee = totalPriceOfCoffee+5;
                 break;
             case 4:
-                totalPrice = totalPrice+18;
+                totalPriceOfCoffee = totalPriceOfCoffee+18;
                 break;
             default:
                 System.out.println("Please select valid coffee number");
 
         }
-
         // output as total price you have to pay to shopkeeper
-        System.out.println("Total price is = "+totalPrice);
+        System.out.println("Total price is = "+totalPriceOfCoffee);
 
         scanner.close();
     }
